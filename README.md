@@ -1,108 +1,90 @@
 # 🎮 NEON MEMORY
 
-Um jogo de memória moderno e viciante e múltiplos modos de jogo.
+A modern and addictive memory game with multiple game modes.
 
-## 🚀 Demonstração
+## 🚀 Demo
 
-🔗 Acesse o projeto online: [https://jogo-memoria-gold.vercel.app/](https://jogo-memoria-gold.vercel.app/)
+🔗 Access the project online: [https://jogo-memoria-gold.vercel.app/](https://jogo-memoria-gold.vercel.app/)
 
-![Neon Memory - Demonstração](https://raw.githubusercontent.com/PabloG-7/jogo-memoria/refs/heads/main/neon-linkedin.png)
+![Neon Memory - Demo](https://raw.githubusercontent.com/PabloG-7/jogo-memoria/refs/heads/main/neon-linkedin.png)
 
-## ✨ Funcionalidades
+## ✨ Features
 
-### 🎯 Modos de Jogo
-- **Clássico**: 3 Modos de jogo (Normal, Velocidade, Difícil)
-- **Multiplayer**: Jogue online contra outros jogadores em tempo real
+### 🎯 Game Modes
+- **Classic**: 3 Game Modes (Normal, Speed, Difficult)
+- **Multiplayer**: Play online against other players in real time
 
-### 🎨 Visual e Design
-- Interface neon moderno
-- Animações fluidas e efeitos visuais impressionantes
-- Design totalmente responsivo
-- Modo escuro nativo
-- Efeitos sonoros imersivos
+### 🎨 Visual and Design
+- Modern neon interface
+- Smooth animations and impressive visual effects
+- Fully responsive design
+- Native dark mode
+- Immersive sound effects
 
-### 🌐 Recursos Online
-- Sistema de salas multiplayer em tempo real
-- Sincronização automática entre jogadores
-- Suporte a múltiplas salas simultâneas
+### 🌐 Online Features
+- Real-time multiplayer room system
+- Automatic synchronization between players
+- Support for multiple simultaneous rooms
 
-## 🚀 Como Jogar
+## 🚀 How to Play
 
-1. **Observe a sequência** de cores que aparece na tela
-2. **Reproduza a sequência** clicando nos botões na ordem correta
-3. **A cada rodada** uma nova cor é adicionada à sequência
-4. **Continue** até errar ou completar o desafio!
+1. **Watch the sequence** of colors that appears on the screen
+2. **Repeat the sequence** by clicking the buttons in the correct order
+3. **Each round** a new color is added to the sequence
+4. **Continue** until you make a mistake or complete the challenge!
 
-### Controles
-- **Mouse/Touch**: Clique nos botões coloridos
-- **ESC**: Pausar o jogo
-- **Space**: Pausar/Retomar
+### Controls
+- **Mouse/Touch**: Click the colored buttons
+- **ESC**: Pause the game
+- **Space**: Pause/Resume
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - **Frontend**: React + TypeScript
-- **Styling**: Tailwind CSS com sistema de design customizado
+- **Styling**: Tailwind CSS with custom design system
 - **Backend**: Supabase (PostgreSQL + Realtime)
 - **Build Tool**: Vite
 - **Audio**: Web Audio API
 - **Icons**: Lucide React
 - **Routing**: React Router DOM
-- **Estado**: React Hooks + Context API
+- **State**: React Hooks + Context API
 
-## 🎨 Sistema de Design
+## 🎨 Design System
 
-O jogo utiliza um sistema de design neon customizado com:
-- Cores vibrantes HSL
-- Gradientes dinâmicos
-- Animações CSS personalizadas
-- Tokens semânticos no Tailwind
-- Componentes reutilizáveis
+The game uses a custom neon design system with:
+- Vibrant HSL colors
+- Dynamic gradients
+- Custom CSS animations
+- Semantic tokens in Tailwind
+- Reusable components
 
-## 📱 Compatibilidade
+## 📱 Compatibility
 
 - ✅ Desktop (Chrome, Firefox, Safari, Edge)
 - ✅ Mobile (iOS Safari, Chrome Mobile)
 - ✅ Tablet (iPad, Android tablets)
 - ✅ PWA Ready
 
-## 🚀 Instalação e Execução
+## 🚀 Installation and Setup
 
-### Pré-requisitos
+### Prerequisites
 - Node.js 18+ 
-- npm ou yarn
+- npm or yarn
 
-### Passo a passo
+### Step-by-step
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/PabloG-7/jogo-memoria
 
-# Entre no diretório
+# Enter the directory
 cd jogo-memoria
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Configure as variáveis de ambiente (opcional para multiplayer)
+# Configure environment variables (optional for multiplayer)
 cp .env.example .env.local
 
-# Execute o projeto
+# Run the project
 npm run dev
-```
-
-## 🎯 Roadmap
-
-- [ ] Sistema de pontuação global
-- [ ] Torneios online
-- [ ] Customização de temas
-- [ ] Mais modos de jogo
-- [ ] Sistema de conquistas
-- [ ] Compartilhamento social
-
-## 🤝 Contribuindo
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
